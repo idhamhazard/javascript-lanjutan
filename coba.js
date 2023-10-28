@@ -1,0 +1,22 @@
+const mhs = [
+  {
+    nama: "idham hazard",
+    umur: 16,
+    email: "idham@gmail.com",
+    jurusan: "TKJ",
+  },
+  {
+    nama: "ukuy",
+    umur: 16,
+    email: "ukuy@gmail.com",
+    jurusan: "OTKP",
+  },
+  {
+    nama: "farrel",
+    umur: 18,
+    email: "farrel@gmail.com",
+    jurusan: "TKJ",
+  },
+];
+
+mhs.map((m) => console.log(m.nama, m.jurusan));
